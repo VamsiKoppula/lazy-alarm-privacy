@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Lazy Alarm</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        h1 {
+            color: #1a1a1a;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 10px;
+            font-size: 2.2rem;
+            margin-top: 0;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 30px;
+            font-size: 1.5rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        p, li {
+            font-size: 1.1rem;
+            color: #555;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .highlight {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p><strong>Last Updated: June 2026</strong></p>
+        <p>This privacy policy governs your use of the software application <strong>Lazy Alarm</strong> ("Application") for mobile devices, which was created by <strong>LazyAlarm Team</strong>.</p>
+        <p>The Application is a high-fidelity, cognitive-awakening alarm clock designed to help heavy sleepers wake up by completing interactive challenges.</p>
+
+        <div class="highlight">
+            <strong>Our Privacy Commitment:</strong><br>
+            Lazy Alarm operates 100% offline. We do not have servers, we do not connect to the internet, and we collect absolutely zero personal user data.
+        </div>
+
+        <h2>1. Information Collection and Use</h2>
+        <p>Because the Application operates offline, we do not collect any user information:</p>
+        <ul>
+            <li><strong>User-Provided Information:</strong> Any settings, labels, or alarm times you set are stored locally on your device's private database and never leave your phone.</li>
+            <li><strong>Automatically Collected Information:</strong> The Application does not collect any diagnostic logs, location data, IP addresses, or unique device identifiers.</li>
+        </ul>
+
+        <h2>2. Device Permissions Used</h2>
+        <p>To schedule and trigger alarms reliably, the Application requests and utilizes specific Android system permissions. None of these permissions are used to collect or transmit data:</p>
+        <ul>
+            <li><strong>SCHEDULE_EXACT_ALARM / USE_EXACT_ALARM:</strong> Required to trigger alarm ringtones and screens at the exact millisecond configured by the user.</li>
+            <li><strong>SYSTEM_ALERT_WINDOW (Draw over other apps):</strong> Required to display the alarm challenge screen immediately over the lock screen when the phone is locked.</li>
+            <li><strong>FOREGROUND_SERVICE / FOREGROUND_SERVICE_MEDIA_PLAYBACK:</strong> Used to keep the alarm sound and wake-up verification state running reliably in the background without being closed by the system.</li>
+            <li><strong>WAKE_LOCK:</strong> Used to wake up the screen and keep the processor active while the alarm ringtone is playing.</li>
+            <li><strong>RECEIVE_BOOT_COMPLETED:</strong> Used to automatically restore and reschedule your configured alarms if your device reboots.</li>
+            <li><strong>VIBRATE:</strong> Used to trigger the haptic vibration motor when the alarm goes off.</li>
+            <li><strong>POST_NOTIFICATIONS:</strong> Used to display ongoing alarm notifications and notify you if you missed an alarm.</li>
+            <li><strong>REQUEST_IGNORE_BATTERY_OPTIMIZATIONS:</strong> Used to request exemption from aggressive battery saving measures (critical on OEM ROMs like Xiaomi, Oppo, and Realme to ensure alarms fire on time).</li>
+        </ul>
+
+        <h2>3. Third-Party Services</h2>
+        <p>We do <strong>not</strong> use any third-party software development kits (SDKs), advertising networks, or analytics tools (such as Google Analytics or Firebase SDKs). No third party has access to your usage of this Application.</p>
+
+        <h2>4. Children's Privacy</h2>
+        <p>Because we do not collect any personal data from any users, including children, we are fully compliant with COPPA (Children's Online Privacy Protection Act) and similar global regulations.</p>
+
+        <h2>5. Contact Us</h2>
+        <p>If you have any questions regarding privacy while using the Application, please contact us:</p>
+        <ul>
+            <li>Email: <a href="mailto:support@lazyalarm.app">support@lazyalarm.app</a></li>
+        </ul>
+
+        <div class="footer">
+            &copy; 2026 LazyAlarm Team. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
